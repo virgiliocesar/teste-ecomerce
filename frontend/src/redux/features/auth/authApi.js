@@ -1,0 +1,87 @@
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { getBaseUrl } from "../../../utils/baseUrl";
+
+const authApi = createApi({
+  reducerPath: "authApi",
+  baseQuery: fetchBaseQuery({
+    baseUrl: `${getBaseUrl()}/api/auth`,
+    credentials: "include",
+  }),
+  tagTypes: ["User"],
+  endpoints: (builder) => ({
+    registerUser: builder.mutation({
+      query: (newUser) => ({
+        url: "/register",
+        method: "POST",
+        body: newUser,
+      }),
+      invalidatesTags: [{ type: "User", id: "LIST" }],
+    }),
+    loginUser: builder.mutation({
+      query: (credentials) => ({
+        url: "/login",
+        method: "POST",
+        body: credentials,
+      }),
+    }),
+    logoutUser: builder.mutation({
+      query: () => ({
+        url: "/logout",
+        method: "POST",
+      }),
+    }),
+    getUser: builder.query({
+      query: () => ({
+        url: "/users",
+        method: "GET",
+      }),
+      providesTags: (result) =>
+        result
+          ? [
+              ...result.map(({ _id }) => ({ type: "User", id: _id })),
+              { type: "User", id: "LIST" },
+            ]
+          : [{ type: "User", id: "LIST" }],
+    }),
+
+    deleteUser: builder.mutation({
+      query: (userId) => ({
+        url: `/users/${userId}`,
+        method: "DELETE",
+      }),
+      invalidatesTags: (result, error, userId) => [
+        { type: "User", id: userId },
+        { type: "User", id: "LIST" },
+      ],
+    }),
+    updateUserRole: builder.mutation({
+      query: ({ userId, role }) => ({
+        url: `/users/${userId}`,
+        method: "PUT",
+        body: { role },
+      }),
+      refetchOnMount: true,
+      invalidatesTags: ["User"],
+    }),
+
+    editProfile: builder.mutation({
+      query: (profileData) => ({
+        url: `/edit-profile`,
+        method: "PATCH",
+        body: profileData,
+      }),
+    }),
+  }),
+});
+
+export const {
+  useRegisterUserMutation,
+  useLoginUserMutation,
+  useLogoutUserMutation,
+  useGetUserQuery,
+  useDeleteUserMutation,
+  useUpdateUserRoleMutation,
+  useEditProfileMutation,
+} = authApi;
+
+export default authApi;

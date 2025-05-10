@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Ajuda (FAQ)",
+    "descricao": "Respostas para as dúvidas mais frequentes.",
+    "link": "ajuda"
+  },
+  {
+    "titulo": "Sobre Nós",
+    "descricao": "Conheça a nossa história, valores e propósito.",
+    "link": "sobre"
+  },
+  {
+    "titulo": "Política de Privacidade",
+    "descricao": "Descubra como protegemos seus dados.",
+    "link": "privacidade"
+  },
+  {
+    "titulo": "Termos e Condições",
+    "descricao": "Confira os termos legais de uso da nossa loja.",
+    "link": "termos"
+  },
+  {
+    "titulo": "Rastreie seu Pedido",
+    "descricao": "Acompanhe em tempo real a entrega da sua compra.",
+    "link": "rastreio"
+  },
+  {
+    "titulo": "Política de Entrega",
+    "descricao": "Saiba como funciona o envio, prazos e valores.",
+    "link": "politica-de-entrega"
+  },
+  {
+    "titulo": "Política de Troca",
+    "descricao": "Entenda como realizar trocas ou devoluções.",
+    "link": "politica-de-troca"
+  },
+  {
+    "titulo": "Trabalhe Conosco",
+    "descricao": "Veja vagas e oportunidades de fazer parte da nossa equipe.",
+    "link": "trabalhe-conosco"
+  }
+]

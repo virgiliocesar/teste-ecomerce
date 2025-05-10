@@ -1,0 +1,108 @@
+[
+  {
+    "_id": 1,
+    "name": "Bolsa de couro",
+    "category": "acessórios",
+    "description": "Bolsa de couro elegante com amplo espaço de armazenamento.",
+    "price": 79.99,
+    "oldPrice": 99.99,
+    "image": "https://images.unsplash.com/photo-1512201078372-9c6b2a0d528a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "preto",
+    "rating": 4.5,
+    "author": "admin"
+  },
+  {
+    "_id": 2,
+    "name": "Vestido de noite",
+    "category": "vestidos",
+    "description": "Vestido de noite elegante para ocasiões especiais.",
+    "price": 149.99,
+    "oldPrice": 199.99,
+    "image": "https://images.unsplash.com/photo-1568251188392-ae32f898cb3b?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "preto",
+    "rating": 4.0
+  },
+  {
+    "_id": 3,
+    "name": "Colar de ouro",
+    "category": "jóias",
+    "description": "Colar de ouro requintado com design intrincado.",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1631097969294-c38afba59496?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "dourado",
+    "rating": 4.7
+  },
+  {
+    "_id": 4,
+    "name": "Batom fosco",
+    "category": "cosméticos",
+    "description": "Long-lasting matte lipstick in various shades.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1631214500115-598fc2cb8d2d?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "vermelho",
+    "rating": 4.2
+  },
+  {
+    "_id": 5,
+    "name": "Lenço de seda",
+    "category": "acessórios",
+    "description": "Lenço de seda luxuoso com cores vibrantes.",
+    "price": 29.99,
+    "oldPrice": 39.99,
+    "image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "vermelho",
+    "rating": 4.3
+  },
+  {
+    "_id": 6,
+    "name": "Vestido de coquetel",
+    "category": "vestidos",
+    "description": "Vestido de cocktail chique para festas e eventos.",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "branco",
+    "rating": 4.4
+  },
+  {
+    "_id": 7,
+    "name": "Brincos de diamante",
+    "category": "jóias",
+    "description": "Sparkling diamond earrings that add elegance to any outfit.",
+    "price": 299.99,
+    "oldPrice": 349.99,
+    "image": "https://images.unsplash.com/photo-1587467442586-7bcc51828a10?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "prata",
+    "rating": 4.8
+  },
+  {
+    "_id": 8,
+    "name": "Foundation",
+    "category": "cosméticos",
+    "description": "High-coverage foundation for a flawless finish.",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1599733589046-10c005739ef9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "bege",
+    "rating": 4.1
+  },
+  {
+    "_id": 9,
+    "name": "Óculos de sol",
+    "category": "acessórios",
+    "description": "Trendy sunglasses with UV protection.",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "preto",
+    "rating": 4.6
+  },
+  {
+    "_id": 10,
+    "name": "Calças casuais",
+    "category": "vestidos",
+    "description": "Comfortable maxi dress for casual outings.",
+    "price": 59.99,
+    "oldPrice": 79.99,
+    "image": "https://plus.unsplash.com/premium_photo-1664298355914-bc65d2c9af64?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "color": "verde",
+    "rating": 3
+  }
+]
