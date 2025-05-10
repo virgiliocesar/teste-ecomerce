@@ -1,4 +1,4 @@
-const baseUrl = "https://ecomerce-fashion-backend.vercel.app";
+const baseUrl = "https://localhost:5000";
 export const getBaseUrl = () => {
     return baseUrl; ;
 }
