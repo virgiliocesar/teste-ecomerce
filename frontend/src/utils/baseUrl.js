@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://teste-ecomerce.onrender.com";
 export const getBaseUrl = () => {
     return baseUrl; ;
 }
