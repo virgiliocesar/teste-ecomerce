@@ -3,4 +3,4 @@ const getBaseUrl = () => {
     return baseUrl; ;
 }
 
-mdule.exports = { getBaseUrl };
+module.exports = { getBaseUrl };
